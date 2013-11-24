@@ -9,7 +9,7 @@ Tutsblog::Application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  resources :products
+  resources :posts
   
   # You can have the root of your site routed with "root"
   root to: 'welcome#index'
